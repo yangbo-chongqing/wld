@@ -1,0 +1,66 @@
+#indcomyh {
+    width: 100%;
+    height: 100%;
+}
+
+.clos1 {
+    height: 11.75rem;
+    width: 100%;
+    margin-top: 88px;
+}
+
+.clos1_banner {
+    height: 100%;
+}
+
+.clos1 .clos1_banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* clos3 */
+
+.clos3 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+
+/* clos3content */
+
+.content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+
+.content_box {
+    width: 96%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+}
+
+.content_clos1 {
+    width: 100%;
+    height: 7.4375rem;
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.my-swipe .van-swipe-item {
+    color: #fff;
+    font-size: 20px;
+    line-height: 150px;
+    text-align: center;
+    background-color: #39a9ed;
+}

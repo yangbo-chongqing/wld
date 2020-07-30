@@ -1,0 +1,97 @@
+#cintroduction{
+		width: 96%;
+		height: auto;
+		overflow: hidden;
+		margin: auto;
+	}
+	#cintroduction .cintroduction_clos1{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.cintroduction_clos1_top{
+		height: 3rem;
+		line-height: 3rem;
+		font-size: 0.875rem;
+		color:#8A8A8A;
+		display: flex;
+		flex-direction: row;
+	}
+	.cintroduction_clos1_top_l{
+		width: 1.375rem;
+		height: 100%;
+		position: relative;
+	}
+	.cintroduction_clos1_top_l img{
+		width: 1.375rem;
+		height: 1.375rem;
+		position: absolute;
+		top: 50%;
+		margin-top: -0.6875rem;
+	}
+	.cintroduction_clos1_top_c{
+		width: 5rem;
+		height: 100%;
+	}
+	.cintroduction_clos1_top_c span{
+		display: block;
+		text-align: center;
+	}
+	.cintroduction_clos1_top_r{
+		flex: 2;
+		height: 100%;
+		position: relative;
+	}
+	.cintroduction_clos1_top_r div{
+		height: 1px;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		margin-top: -0.03125rem;
+		background: #2C62EE;
+	}
+	/* 人物信息样式设置 bott*/
+	.cintroduction_clos1_bott{
+		width: 100%;
+		height: auto;
+		padding: 0.625rem 0 0.625rem 0.625rem;
+		display: flex;
+		flex-direction: row;
+		border: 1px solid #2C62EE;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.cintroduction_clos1_bott_l{
+		width: 7.4375rem;
+		height: 9.5625rem;
+		background: yellow;
+	}
+	.cintroduction_clos1_bott_l img{
+		width: 100%;
+		height: 100%;
+	}
+	.cintroduction_clos1_bott_r{
+		flex: 2;
+		padding-left: 1rem;
+		overflow: hidden;
+		padding-top: 3rem;
+	}
+	.cintroduction_clos1_bott_r p{
+		font-size: 0.875rem;
+		color: #444;
+		line-height: 1.9;
+	}
+	/* 内容 */
+	.contents{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		font-size: 0.875rem;
+		color: #444;
+		text-indent: 2;
+	}
+	.contents p{
+		text-indent: 1.5rem;
+		line-height: 1.6;
+	}

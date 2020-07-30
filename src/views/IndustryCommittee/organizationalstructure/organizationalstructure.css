@@ -1,0 +1,114 @@
+#orgZatLstr{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #fff;
+}
+.orgZatLstr_box{
+	width: 96%;
+	height: auto;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+.orgZatLstr_box_clos1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	border-left: 1px solid #42B983;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.orgZatLstr_box_clos1_titi{
+	width: 100%;
+	height: 3rem;
+	font-size: 1rem;
+	color: #444444;
+	line-height: 3rem;
+	position: relative;
+	background: #fff;
+}
+.orgZatLstr_box_clos1_titi img{
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5rem;
+}
+.orgZatLstr_box_clos1_titi span{
+	margin-left: 1rem;
+}
+.orgZatLstr_box_clos1_content{
+	padding: 1rem;
+	font-size: 0.875rem;
+	color: #8A8A8A;
+}
+/* 办公电话 */
+.orgZatLstr_box_clos2{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	border-left: 1px solid #42B983;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 1rem 0 1rem;
+}
+.orgZatLstr_box_clos3_list{
+	width: 100%;
+	height: 4.75rem;
+	display: flex;
+	flex-direction: row;
+}
+.orgZatLstr_box_clos3_list_l{
+	width: 3.75rem;
+	height: 3.75rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: red;
+	overflow: hidden;
+}
+.orgZatLstr_box_clos3_list_l img{
+	width: 100%;
+	height: 100%;
+}
+.orgZatLstr_box_clos3_list_r{
+	padding-left: 1rem;
+	display: flex;
+	flex-direction: row;
+	flex: 2;
+	border-left: 1px solid #f5f5f5;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.orgZatLstr_box_clos3_list_r_l{
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+}
+.orgZatLstr_box_clos3_list_r_r{
+	flex: 1;
+	text-align: right;
+	line-height: 4.45rem;
+	margin-right: 1rem;
+	font-size: 0.875rem;
+	color: #42B983;
+}
+.orgZatLstr_box_clos3_list_r_l div{
+	flex: 1;
+	line-height: 2.3rem;
+	font-size: 0.875rem;
+	color: #444444;
+}
+.orgZatLstr_box_clos3_list_r_l div:last-child{
+	flex: 1;
+	line-height: 2.3rem;
+	font-size: 0.75rem;
+	color: #8A8A8A;
+}
